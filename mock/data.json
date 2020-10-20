@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "label": "网络威胁分析1",
+    "key": "/NetThreatAnalysis1",
+    "parentId": 0,
+    "order": 0,
+    "children": [
+      {
+        "id": 11,
+        "label": "网络威胁分析11",
+        "key": "/NetThreatAnalysis1/child11",
+        "parentId": 1,
+        "order": 0
+      },
+      {
+        "id": 12,
+        "label": "网络威胁分析12",
+        "key": "/NetThreatAnalysis1/child12",
+        "parentId": 1,
+        "order": 0,
+        "children": [
+          {
+            "id": 121,
+            "label": "网络威胁分析121",
+            "key": "/NetThreatAnalysis1/child12/child121",
+            "parentId": 12,
+            "order": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "label": "网络威胁分析2",
+    "key": "/NetThreatAnalysis3",
+    "parentId": 0,
+    "order": 0,
+    "children": []
+  },
+  {
+    "id": 4,
+    "label": "网络威胁分析aaa",
+    "key": "/NetThreatAnalysis/NetIntrusion",
+    "parentId": 0,
+    "order": 0,
+    "children": []
+  },
+  {
+    "id": 44,
+    "label": "系统威胁分析aaa",
+    "key": "/SysSecurity/SysAttackAnalysis",
+    "parentId": 0,
+    "order": 0,
+    "children": []
+  },
+  {
+    "id": 45,
+    "label": "DDOS异常流量",
+    "key": "/NetThreatAnalysis/AbnormalFlow/DdosAbnormalTraffic",
+    "parentId": 0,
+    "order": 0,
+    "children": []
+  },
+  {
+    "id": 46,
+    "label": "业务异常流量",
+    "key": "/NetThreatAnalysis/AbnormalFlow/BizAbnormalTraffic",
+    "parentId": 0,
+    "order": 0,
+    "children": []
+  },
+  {
+    "id": 5,
+    "label": "网络威胁分3",
+    "key": "/NetThreatAnalysis5",
+    "parentId": 0,
+    "order": 0,
+    "children": []
+  },
+  {
+    "id": 7,
+    "label": "网络威胁分5",
+    "key": "/NetThreatAnalysis7",
+    "parentId": 0,
+    "order": 0,
+    "children": []
+  },
+  {
+    "id": 9,
+    "label": "网络威胁分析9",
+    "key": "/NetThreatAnalysis9",
+    "parentId": 0,
+    "order": 0,
+    "children": []
+  }
+]
