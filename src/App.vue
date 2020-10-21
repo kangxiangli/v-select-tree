@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="main">
+       <div class="main">
       <!-- 基础单选 start -->
       <div class="title">基础单选 </div>
       <div class="content">

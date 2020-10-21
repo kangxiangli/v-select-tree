@@ -2,7 +2,6 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
-  // entry: process.env.NODE_ENV === 'development'?'./src/main.js':'./src/lib/index.js'
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),

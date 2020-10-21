@@ -179,4 +179,5 @@ export default {
  .custom-select .el-select-dropdown__list .el-select-dropdown__item.is-hide {
     display: none;
   }
+
 </style>
