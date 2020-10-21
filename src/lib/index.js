@@ -1,4 +1,4 @@
-import vSelectTree from './v-select-tree.vue.vue'
+import vSelectTree from './v-select-tree.vue'
 const comment = {
   install: function(Vue) {
     Vue.component('vSelectTree', vSelectTree)

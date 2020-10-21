@@ -43,6 +43,13 @@
 </template>
 <script>
 import { treeToList } from '../utils/base.js'
+import { Select, Tree ,Option,Button,Input} from 'element-ui';
+
+import 'element-ui/lib/theme-chalk/tree.css'
+import 'element-ui/lib/theme-chalk/option.css'
+import 'element-ui/lib/theme-chalk/select.css'
+import 'element-ui/lib/theme-chalk/button.css'
+import 'element-ui/lib/theme-chalk/input.css'
 
 const DEFAULT_SELECT_ATTR = {
   'popper-append-to-body': false
@@ -54,6 +61,9 @@ const DEFAULT_TREE_ATTR = {
 
 export default {
   name: 'v-select-tree',
+   components: {
+    Tree,Option,Select,Button,Input
+  },
   props: {
     size: {
       type: String,

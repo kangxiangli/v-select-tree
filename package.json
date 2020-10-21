@@ -1,7 +1,7 @@
 {
   "name": "v-select-tree",
   "description": "vue 下拉选择树",
-  "version": "0.1.4",
+  "version": "0.1.7",
   "author": "kangxiangli <1140379339@qq.com>",
   "license": "MIT",
   "private": false,
@@ -16,7 +16,7 @@
     "dist"
   ],
   "homepage": "https://github.com/kangxiangli/v-select-tree",
-  "main": "./dist/v-select-tree.js",
+  "main": "src/lib/index.js",
   "dependencies": {
     "element-ui": "^2.9.1",
     "vue": "^2.5.11"
