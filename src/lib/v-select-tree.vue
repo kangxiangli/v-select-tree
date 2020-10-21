@@ -43,13 +43,20 @@
 </template>
 <script>
 import { treeToList } from '../utils/base.js'
-import { Select, Tree ,Option,Button,Input} from 'element-ui';
+import ElTree from 'element-ui/lib/tree.js'
+import ElSelect from 'element-ui/lib/select.js'
+import ElOption from 'element-ui/lib/option.js'
+import ElButton from 'element-ui/lib/button.js'
+import ElInput from 'element-ui/lib/input.js'
+import ElIcon from 'element-ui/lib/Icon.js'
 
 import 'element-ui/lib/theme-chalk/tree.css'
 import 'element-ui/lib/theme-chalk/option.css'
 import 'element-ui/lib/theme-chalk/select.css'
 import 'element-ui/lib/theme-chalk/button.css'
 import 'element-ui/lib/theme-chalk/input.css'
+import 'element-ui/lib/theme-chalk/Icon.css'
+
 
 const DEFAULT_SELECT_ATTR = {
   'popper-append-to-body': false
@@ -62,7 +69,7 @@ const DEFAULT_TREE_ATTR = {
 export default {
   name: 'v-select-tree',
    components: {
-    Tree,Option,Select,Button,Input
+    ElTree,ElSelect,ElOption,ElButton,ElInput,ElIcon
   },
   props: {
     size: {
@@ -159,17 +166,17 @@ export default {
 }
 </script>
 <style>
-.custom-select  .el-select-dropdown__item {
+.custom-select  .el-select-dropdown__list .el-select-dropdown__item {
     height: auto;
     padding: 0 10px;
   }
- .custom-select  .el-select-dropdown__item.hover {
+ .custom-select .el-select-dropdown__list .el-select-dropdown__item.hover {
     background-color: transparent;
   }
- .custom-select  .el-select-dropdown__item.selected {
+ .custom-select .el-select-dropdown__list .el-select-dropdown__item.selected {
     font-weight: normal;
   }
- .custom-select  .el-select-dropdown__item.is-hide {
+ .custom-select .el-select-dropdown__list .el-select-dropdown__item.is-hide {
     display: none;
   }
 </style>
