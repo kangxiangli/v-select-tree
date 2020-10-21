@@ -1,7 +1,7 @@
 {
   "name": "v-select-tree",
   "description": "vue 下拉选择树",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "author": "kangxiangli <1140379339@qq.com>",
   "license": "MIT",
   "private": false,
@@ -12,7 +12,8 @@
   "files": [
     "lib",
     "src",
-    "packages"
+    "packages",
+    "dist"
   ],
   "homepage": "https://github.com/kangxiangli/v-select-tree",
   "main": "./dist/v-select-tree.js",
@@ -51,5 +52,5 @@
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
   },
-  "unpkg": "lib/index.js"
+  "unpkg": "src/lib/index.js"
 }

@@ -2,12 +2,13 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
-  entry: process.env.NODE_ENV === 'development'?'./src/main.js':'./lib/index.js'
-  // entry: './lib/index.js',
+  // entry: process.env.NODE_ENV === 'development'?'./src/main.js':'./src/lib/index.js'
+  entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
     filename: 'v-select-tree.js',
+    library:'v-select-tree',
     libraryTarget:'umd',
     umdNamedDefine:true
   },
