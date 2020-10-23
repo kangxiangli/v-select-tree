@@ -216,3 +216,18 @@
 
 ### Events
 直接绑定即可，参照 el-select/el-tree 官方事件，例： `@node-click="handleNodeClick"`
+
+### yarn 和npm使用
+
+```
+//npm
+npm i v-select-tree
+//yarn
+yarn add v-select-tree
+```
+```
+import Vue from 'vue'
+import vSelectTree from 'v-select-tree'
+
+Vue.use(vSelectTree)
+```

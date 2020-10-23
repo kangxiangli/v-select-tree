@@ -1,7 +1,7 @@
 {
   "name": "v-select-tree",
   "description": "vue 下拉选择树",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "author": "kangxiangli <1140379339@qq.com>",
   "license": "MIT",
   "private": false,
